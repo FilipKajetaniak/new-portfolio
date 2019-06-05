@@ -20,7 +20,7 @@ export default function Playlist() {
       <header>
         <h1>YouTube playlist</h1>
         <a
-          href="https://www.dziecimamy.com/"
+          href="https://kajetaniak.pl/playlist/"
           target="_blank"
           rel="noopener noreferrer"
           className="underline-focus"

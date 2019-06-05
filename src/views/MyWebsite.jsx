@@ -3,6 +3,7 @@ import Article from "../components/Article/Article";
 import { ReactIcon, SassIcon } from "../components/icons/Technologies";
 import LazyImg from "../components/LazyImage/LazyImg";
 import BadgesContainer from "../containers/BadgesContainer";
+import Underline from "../components/Underline/Underline";
 export default function MyWebsite() {
   return (
     <Article>
@@ -12,6 +13,14 @@ export default function MyWebsite() {
       />
       <header>
         <h1>My website</h1>
+        <a
+          href="https://github.com/FilipKajetaniak/new-portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline-focus"
+        >
+          <Underline>Github</Underline>
+        </a>
         <p>Simple portfolio website built with React.</p>
         <BadgesContainer>
           <span className="technology-badge react">
